@@ -1,0 +1,33 @@
+{
+  "feature_columns": [
+    "cust_txns",
+    "cust_items",
+    "cust_qty",
+    "cust_spend",
+    "cust_active_days",
+    "cust_recency_days",
+    "cust_avg_basket_value",
+    "item_txns",
+    "item_buyers",
+    "item_qty",
+    "item_avg_price",
+    "item_recency_days",
+    "item_buyer_penetration",
+    "pair_purchases",
+    "pair_qty",
+    "pair_spend",
+    "pair_recency_days",
+    "pair_purchase_rate",
+    "pair_spend_share",
+    "item_popularity_per_customer",
+    "pair_seen",
+    "cutoff_month",
+    "cutoff_weekday"
+  ],
+  "id_columns": [
+    "CustomerID",
+    "StockCode"
+  ],
+  "target": "target",
+  "note": "CustomerID and StockCode are keys only and are excluded from model features."
+}

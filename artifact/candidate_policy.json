@@ -1,0 +1,12 @@
+{
+  "candidate_catalog_size": 1000,
+  "candidate_rule": "Top N items by unique invoice count computed from training history only",
+  "N": 1000,
+  "repeat_purchase_allowed": true,
+  "future_positive_inclusion": "All representable future positives are retained; unretrievable positives are counted in candidate recall and remain in Recall denominators.",
+  "negative_sampling": {
+    "n_negatives": 50,
+    "seed": 42,
+    "without_replacement": true
+  }
+}

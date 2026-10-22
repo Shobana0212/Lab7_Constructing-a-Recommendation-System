@@ -1,0 +1,21 @@
+{
+  "dataset": "D1 - UCI Online Retail",
+  "verified_dataset_id": 352,
+  "local_file": "Online Retail.xlsx",
+  "access_mode": "Local Jupyter file",
+  "access_date": "2026-09-08",
+  "sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+  "raw_rows": 541909,
+  "filtered_rows": 397924,
+  "unique_customers": 4339,
+  "unique_items": 3665,
+  "unique_invoices": 18536,
+  "date_range": [
+    "2010-12-01 08:26:00",
+    "2011-12-09 12:50:00"
+  ],
+  "return_cancellation_policy": "Drop cancellation invoices, non-positive quantities and invalid/non-positive unit prices.",
+  "missing_customer_policy": "Drop rows without CustomerID for personalized modelling; count recorded.",
+  "duplicate_policy": "Exact duplicates audited; legitimate repeated quantities within orders are retained.",
+  "privacy_boundary": "Customer IDs are grouping/join keys only; no names, emails, addresses or payment data are exposed."
+}

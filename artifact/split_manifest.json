@@ -1,0 +1,11 @@
+{
+  "train_pair_cutoff": "2011-08-10 10:29:00",
+  "train_end": "2011-10-09 10:29:00",
+  "validation_end": "2011-11-11 12:44:00",
+  "test_locked": true,
+  "train_hist_rows": 278543,
+  "val_future_rows": 59574,
+  "test_future_rows": 59807,
+  "cutoff_source": "Fixed reproducible fallback timestamps from D1 extract; replace with instructor-approved timestamps if supplied.",
+  "leakage_rule": "All features/popularity/candidate statistics are computed from history strictly before the relevant cutoff."
+}
