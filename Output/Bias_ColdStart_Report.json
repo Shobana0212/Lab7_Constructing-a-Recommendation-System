@@ -1,0 +1,10 @@
+{
+  "eligible_test_users": 1060,
+  "cold_start_users_in_locked_evaluation": 0,
+  "sparse_users_below_min_history": 0,
+  "RF_catalog_coverage_K10": 0.863,
+  "Popularity_catalog_coverage_K10": 0.01,
+  "RF_top1_share_of_all_recommendations": 0.010566037735849057,
+  "repeat_purchase_policy": true,
+  "temporal_drift_note": "Test follows validation chronologically; changes in product demand and customer behavior can still reduce future performance."
+}

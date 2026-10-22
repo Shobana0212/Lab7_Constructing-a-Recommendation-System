@@ -1,0 +1,3 @@
+split,candidate_recall,users_evaluated,users_all_positive,future_positive_pairs,unretrievable_future_positive_pairs,candidate_policy_version
+validation,0.6505653396757083,1610,0.09130434782608696,52977,18512,top_1000_items_by_unique_invoices_from_train_history
+test,0.6396369734635494,1554,0.10553410553410554,50685,18265,top_1000_items_by_unique_invoices_from_train_history
